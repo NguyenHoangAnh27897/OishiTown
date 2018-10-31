@@ -1,0 +1,164 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="masthead inline-header left widgets shadow-decoration small-mobile-menu-icon dt-parent-menu-clickable show-device-logo show-mobile-logo" role="banner">
+
+    <div class="top-bar top-bar-empty top-bar-line-hide">
+        <div class="top-bar-bg"></div>
+        <div class="mini-widgets left-widgets"></div>			<div class="mini-widgets right-widgets"></div>
+    </div>
+
+    <header class="header-bar">
+
+        <div class="branding">
+            <div id="site-title" class="assistive-text">oishitown.com</div>
+            <div id="site-description" class="assistive-text">Phố Nhật Bản Oishi Town</div>
+            <a href="http://oishitown.com/"><img class=" preload-me" src="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown.png" srcset="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown.png 136w, http://oishitown.com/wp-content/uploads/2018/04/logo.png 416w" width="136" height="68" sizes="136px" alt="oishitown.com" /><img class="mobile-logo preload-me" src="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown_1x.png" srcset="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown_1x.png 97w" width="97" height="49" sizes="97px" alt="oishitown.com" /></a>
+        </div>
+        <ul id="primary-menu" class="main-nav underline-decoration l-to-r-line" role="menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4065 first"><a href='/home/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Trang chủ</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4064"><a href='/home/about' data-level='1'><span class="menu-item-text"><span class="menu-text">Giới thiệu</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href='/customer/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Khách hàng</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4112"><a href='/event/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Sự kiện</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4060 current_page_item menu-item-4293 act"><a href='/news/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Tin tức</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4063"><a href='/home/contact' data-level='1'><span class="menu-item-text"><span class="menu-text">Liên hệ</span></span></a></li>
+            <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-vi"><a href='http://oishitown.com' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt"></span></span></a></li>
+            <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-en"><a href='http://oishitown.com?lang=en' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"></span></span></a></li>
+        </ul>
+        <div class="mini-widgets">
+            <div class="mini-search show-on-desktop near-logo-first-switch near-logo-second-switch">
+                <form class="searchform" role="search" method="get" action="http://oishitown.com/">
+
+                    <label for="search" class="screen-reader-text">Search:</label>
+                    <input type="text" class="field searchform-s" name="s" value="" placeholder="Type and hit enter &hellip;" />
+                    <input type="hidden" name="lang" value="vi" />		<input type="submit" class="assistive-text searchsubmit" value="Go!" />
+                    <a href="#go" id="trigger-overlay" class="submit">Tìm kiếm</a>
+                </form>
+            </div><div class="soc-ico show-on-desktop in-top-bar-right in-menu-second-switch custom-bg disabled-border border-off hover-accent-bg hover-disabled-border  hover-border-off"><a title="Facebook" href="https://www.facebook.com/oishitownthaodien/" target="_blank" class="facebook"><span class="soc-font-icon"></span><span class="screen-reader-text">Facebook</span></a><a title="Twitter" href="/" target="_blank" class="twitter"><span class="soc-font-icon"></span><span class="screen-reader-text">Twitter</span></a><a title="Google+" href="/" target="_blank" class="google"><span class="soc-font-icon"></span><span class="screen-reader-text">Google+</span></a></div>
+        </div>
+    </header>
+
+</div><div class='dt-close-mobile-menu-icon'><span></span></div>
+<div class='dt-mobile-header'>
+    <ul id="mobile-menu" class="mobile-main-nav" role="menu">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4065"><a href='/home/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Trang chủ</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4064"><a href='/home/about' data-level='1'><span class="menu-item-text"><span class="menu-text">Giới thiệu</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href='/customer/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Khách hàng</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4112"><a href='/event/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Sự kiện</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4293"><a href='/news/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Tin tức</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4063"><a href='/home/contact' data-level='1'><span class="menu-item-text"><span class="menu-text">Liên hệ</span></span></a></li>
+        <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-vi"><a href='http://oishitown.com' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt"></span></span></a></li>
+        <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-en"><a href='http://oishitown.com?lang=en' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"></span></span></a></li>
+    </ul>
+    <div class='mobile-mini-widgets-in-menu'></div>
+</div>
+<div class="page-title title-left solid-bg breadcrumbs-mobile-off page-title-responsive-enabled">
+    <div class="wf-wrap">
+
+        <div class="page-title-head hgroup"><h1 class="entry-title">Những nét văn hoá đặc sắc của Nhật Bản</h1></div><div class="page-title-breadcrumbs"><div class="assistive-text">You are here:</div><ol class="breadcrumbs text-small" xmlns:v="http://rdf.data-vocabulary.org/#"><li typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://oishitown.com/" title="">Home</a></li><li typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://oishitown.com/tin-tuc">Tin tức</a></li><li class="current">Những nét văn hoá đặc&hellip;</li></ol></div>
+    </div>
+</div>
+
+
+
+<div id="main" class="sidebar-right sidebar-divider-off">
+
+
+    <div class="main-gradient"></div>
+    <div class="wf-wrap">
+        <div class="wf-container-main">
+
+
+
+
+
+            <div id="content" class="content" role="main">
+
+
+
+                <article id="post-4191" class="post-4191 post type-post status-publish format-standard has-post-thumbnail category-tin-tuc category-1 description-off">
+
+                    <div class="post-thumbnail"><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20864%20432&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/04/23473187_131655880869449_9088506461407384512_n-864x432.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/04/23473187_131655880869449_9088506461407384512_n-864x432.jpg 864w, http://oishitown.com/wp-content/uploads/2018/04/23473187_131655880869449_9088506461407384512_n-865x432.jpg 865w" width="864" height="432" title="23473187_131655880869449_9088506461407384512_n" alt="" /></div><div class="entry-content">
+                        <p>Như chúng ta đều biết, Nhật Bản là một quốc gia liên tục hứng chịu ảnh hưởng của thiên tai như động đất, sóng thần , núi lửa,… Trong số đó, cùng đã có không ít thiên tai kinh hoàng đến thức không khác gì thảm họa. Vậy mà, với ý chí bền bỉ, kiên cường và tinh thần đoàn kết của mình, người Nhật đã khiến cả thế giới phải nghiêng mình ngưỡng mộ. Tất cả những đức tính đó đều bắt nguồn từ chính văn hóa của con người nay đây. Hôm nay, chúng ta sẽ cùng nhau đi tìm hiểu về <strong>những nét văn hóa đặc sắc của Nhật Bản</strong> nhé!</p>
+                        <h2>1. Văn hóa trà đạo</h2>
+                        <p><img class="aligncenter wp-image-1563 size-full td-animation-stack-type0-2" title="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" src="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban.jpg" sizes="(max-width: 500px) 100vw, 500px" srcset="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban.jpg 500w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-300x199.jpg 300w" alt="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" width="500" height="332" />Phát triển từ khoảng cuối thế kỷ VII,<strong> trà đạo</strong> đã trở thành một nghệ thuật thưởng thức trà cũng như là một nét đặc trưng trong văn hóa Nhật Bản. Với chúng ta đó chỉ là một cốc trà xanh bình thường nhưng với người Nhật cốc trà này lại rất đặc biệt vì nó mở ra trong tâm hồn họ một chân trời rộng lớn. Họ tin rằng thông qua cách uống trà và thưởng thức trà đạo co có thể <em>tìm thấy được giá trị tinh thần cần có của bản thân mỗi con người</em>. Tinh thần của trà đạo được biết đến qua bốn chữ : <em>“hòa”, “kính”, “thanh”, “tịch”</em>. Trong đó, <em>“Hòa”</em> chính là là <em>hòa bình</em>; <em>“Kính”</em> là<em> tôn trọng người trên, yêu thương bè bạn</em>, <em>con cháu</em>; <em>“thanh”</em> là <em>thanh tịnh, thanh khiết</em>; còn <em>“tịch’</em> tức là <em>giới hạn mỹ học cao nhất của trà đạo an nhàn</em></p>
+                        <h2>2. Trang phục truyền thống Kimono</h2>
+                        <p><strong>“Kimono”</strong> trong tiếng Nhật có nghĩa là: “đồ để mặc”, hòa phục hay còn có cái tên khác là y phục Nhật, chính là là loại y phục truyền thống của Nhật Bản. <strong>Kimono</strong> đã được người Nhật sử dụng trong suốt vài trăm năm. Ngày nay, do sự hội nhập quốc tế và tính chất cuộc sống nên <strong>Kimono</strong> không còn được sử dụng dụng hằng ngày như lúc trước mà thường chỉ được sử dụng vào các dịp lễ tết, trong đám tiệc hay các lễ hội. Ở Nhật, phụ nữ mặc <strong>kimono</strong> phổ biến hơn nam giới và thường có màu và hoa văn nổi bật. Trong khi đó,<strong> kimono</strong> dành cho nam thường không có hoa văn và màu tối hơn.</p>
+                        <p><img class="aligncenter wp-image-1564 td-animation-stack-type0-2" title="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" src="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-1.jpg" sizes="(max-width: 431px) 100vw, 431px" srcset="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-1.jpg 500w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-1-300x214.jpg 300w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-1-100x70.jpg 100w" alt="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" width="431" height="308" />Điểm đặc biệt của <strong>Kimono</strong> dành cho phụ nữ chính là bạn không cần phải lo liệu mình có mặc vừa hay không vì <strong>Kimono</strong> chỉ có một cỡ duy nhất, người mặc chỉ cần bó y phục lại cho phù hợp với bản thân mình. <strong>Kimono</strong> có 2 loại : <em>tay rộng và tay ngắn</em>. Phụ nữ đã lấy chồng thường không chuộng loại tay rộng bởi nó có thể gây ra nhiều trở ngại, vướng víu khi làm việc. Trước khi mặc<strong> kimono</strong> thì phải mặc “<em>juban”</em> trước. <strong>Juban</strong> là <em>một áo kimono lót để bảo vệ kimono khỏi dơ, sau đó cuốn bên phải vào trước, bên trái vào sau,sau đó được thắt lại bằng thắt lưng Obi làm bằng lụa, rất đắt tiền.</em> Trong trường hợp quấn bên trái trước thì có nghĩa là bạn sắp đi dự tang lễ. Việc mặc<strong> kimono</strong> rất mất thời gian, và gần như không thể tự mặc được. Người mặc <strong>kimono</strong> phải <em>đi guốc gỗ, và mang bít tất Tabi màu trắng</em></p>
+                        <h2>3. Rượu Sake</h2>
+                        <p><img class="aligncenter wp-image-1565 td-animation-stack-type0-2" title="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" src="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-2.jpg" sizes="(max-width: 485px) 100vw, 485px" srcset="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-2.jpg 500w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-2-300x199.jpg 300w" alt="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" width="485" height="321" />Nhắc tới Nhật Bản, chúng ta chắc ai cũng biết đến loại rượu đặc trưng có từ ngàn xưa của xứ sở Phù Tang phải không nào, đó chính là loại<strong> rượu sake</strong>. <strong>Rượu sake</strong> là <em>một loại rượu nhẹ truyền thống nấu từ gạo qua nhiều công đoạn lên men của người Nhật và đi kèm với khá nhiều quy tắc</em>. Dựa vào những thời điểm khác nhau mà người Nhật cũng sẽ sử dụng các loại rượu khác nhau. Trong văn hóa Nhật, <em>người trẻ phải rót rượu cho người già nhất trước va khi có người rót <strong>rượu sake</strong> cho bạn, bạn cần phải giữ cốc rượu bằng 1 tay và tay kia kê phía dưới cốc để thể hiện phép lịch sự</em></p>
+                        <h2>4. Văn hóa Nhật Bản trong giao tiếp</h2>
+                        <p>
+                            Trong văn hóa giao tiếp truyền thông của người Nhật Bản, có những quy tắc và lễ nghi mà mọi người đều phải làm theo. Đặc biệt, tất cả lời chào của người Nhật bao giờ cùng đi kèm với một cái cúi chào sau cùng. Dựa theo địa vị xã hội và mối quan hệ xã hội với người tham gia giao tiếp mà người Nhật sử dụng các quy tắc và lễ nghi cũng như cách cúi mình mình khác nhau.<br />
+                            <img class="aligncenter wp-image-1566 size-full td-animation-stack-type0-2" title="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" src="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-3.jpg" sizes="(max-width: 500px) 100vw, 500px" srcset="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-3.jpg 500w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-3-300x182.jpg 300w" alt="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" width="500" height="303" />Người Nhật sử dụng ba kiểu cúi chào sau:
+                        </p>
+                        <p>
+                            <strong>Kiểu cúi chào bình thường:</strong><br />
+                            Trong kiểu chào này, thân mình cúi xuống 20-30 độ và giữ nguyên 2-3 giây. Nếu đang ngồi trên sàn nhà mà muốn chào thì đặt hai tay xuống sàn, lòng bàn tay úp sấp cách nhau 10-20cm, đầu cúi thấp cách sàn nhà 10-15cm
+                        </p>
+                        <p>
+                            <strong>Kiểu Saikeirei:</strong><br />
+                            Kiểu chào này thường sử dụng trước bàn thờ trong các đền của Thần đạo, chùa của Phật giáo, trước Quốc kỳ, trước Thiên Hoàng. Để thự hiện kiểu cúi chào Saikeirie, chúng ta cúi xuống từ từ và rất thấp để biểu thị sư kính trọng sâu sắc
+                        </p>
+                        <p>
+                            <strong>Kiểu khẽ cúi chào:</strong><br />
+                            Trong kiểu chào này, thân và đầu hơi cúi trong khoảng một giây và hai tay để bên hông. Người Nhật thường chào nhau vài lần trong ngày, nhưng chỉ lần đầu thì phải chào thi lễ cò những lần sau chỉ cần khẽ cúi chào
+                        </p>
+                        <h2>5. Lễ nghi và phong tục ở Nhật Bản</h2>
+                        <p><img class="aligncenter wp-image-1567 td-animation-stack-type0-2" title="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" src="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-4.jpg" sizes="(max-width: 429px) 100vw, 429px" srcset="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-4.jpg 500w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-4-300x225.jpg 300w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-4-80x60.jpg 80w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-4-265x198.jpg 265w" alt="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" width="429" height="322" />Các <strong>lễ nghi và phong tục</strong> đã đóng góp không nhỏ trong quá trình hình thành nên <em>những nét văn hóa đặc trưng của Nhật Bản đồng thời cũng là cơ sở cho lối sống nề nếp và sự phát triển ổn định của xã hội , từ đó tạo nên một nền văn hóa Nhật mang đậm yếu tố nội sinh</em></p>
+                        <p>Trong quá trình phát triển, văn hóa Nhật không chỉ giữ gìn, phát triển bản sắc truyền thông văn hóa của mình mà còn sẵn sàng tiếp nhận những cái mới chủ yếu từ Trung Quốc và phương Tây. Để rồi từ đó mà người Nhật có thể tạo nên những nét độc đáo trong văn hóa</p>
+                        <h2>6. Tinh thần võ sĩ đạo trong văn hóa Nhật Bản</h2>
+                        <p><strong><img class="aligncenter wp-image-1568 td-animation-stack-type0-2" title="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" src="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-5.jpg" sizes="(max-width: 472px) 100vw, 472px" srcset="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-5.jpg 500w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-5-300x169.jpg 300w" alt="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" width="472" height="265" />Tinh thần võ sĩ đạo</strong> như <em>một lý tưởng về một lối sống đầy nghị lực, quyết tâm mà người Nhật luôn hướng đến</em>. Để trở thành một võ sĩ đạo chân chính phải rèn luyện được các tính căn: <em>Ngay thẳng, dũng cảm, nhân từ, lễ phép, tự kiểm soát bản thân, lòng trung thành và danh dự</em>. Nhờ vào các đức tính đó, mà từ một nước nghèo ở Đông Á, hứng chịu nhiều tổn thất từ chiến tranh thế giới thứ 2 và thiên nhiên khắc nghiệt tàn phá, Nhật Bản đã vươn lên trở thành một trong những nước có nền công nghiệp và kinh tế phát triển hàng đầu thế giới.</p>
+                        <h2>7. Văn hóa Nhật Bản mang đậm bản sắc dân tộc</h2>
+                        <p>Sự giao thoa giữa văn hóa hiện đại và truyền thống đã tạo nên nét đẹp đặc trưng trong văn hóa của con người Nhật Bản. Để giải thích điều này, có ý kiến cho rằng do đất nước Nhật Bản được bao quanh là biển đảo và chưa hề có cuộc chiến tranh xâm lược nào nên đã tạo cho xã hội một sự thống nhất về văn hóa. Bên cạnh đó cũng có ý kiến khác lại cho rằng chính điều kiện thiên nhiên khắc nghiệt với nhiều thiên tai như động đất, sóng thần… đã tạo ra <strong>một ý chí, nghị lực kiên cường và trên hết là tinh thần đoàn kết chống lại thiên tai của người Nhật.</strong></p>
+                        <p><img class="aligncenter wp-image-1569 td-animation-stack-type0-2" title="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" src="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-6.jpg" sizes="(max-width: 424px) 100vw, 424px" srcset="https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-6.jpg 500w, https://jes.edu.vn/wp-content/uploads/2017/09/nhung-net-van-hoa-dac-trung-cua-Nhat-Ban-6-300x202.jpg 300w" alt="nhung-net-van-hoa-dac-trung-cua-Nhat-Ban" width="424" height="285" />Quả thật, người dân Nhật Bản không phải chịu cảnh chiến tranh như các quốc gia khác nhưng năm này qua năm khác người Nhật phải đấu tranh vật vã với thiên nhiên và khí hậu đầy khắc nghiệt, điều này đã tạo nên <strong>đức tính sự cần cù, chịu khó và bền bỉ trong mỗi con người ở đây.</strong></p>
+                        <p>Ở Nhật Bản có 2 tôn giáo chính là : <strong>Thần đạo và Phật giáo</strong>. Hai tôn giáo này với bề dày về lịch sử lâu đời đã tạo nên những nghi lễ, những tập quán và phong tục trong văn hóa ứng xử cũng như các trang phục và cách ăn uống trong sinh hoạt hàng ngày</p>
+                        <h2>8. Những nét “lạ” trong văn hóa Nhật</h2>
+                        <p>Nhật Bản có một số nét văn hóa sau mà khiến bất kì khách du lịch nào cũng không đổi ngạc nhiên khi đến đây :</p>
+                        <ul>
+                            <li>Khi nhờ vả hay làm phiền ai đó, phải lập tức nói cảm ơn hoặc xin lỗi</li>
+                            <li>Tập tục tặng quà Tết và quà Trung thu</li>
+                            <li>Khi đi vệ sinh trong nhà vệ sinh kiểu Nhật thì phải quay vào</li>
+                            <li>Không nên đưa tiền bo khi ở Nhật</li>
+                            <li>Trước khi vào nhà, phải cởi giày quay mũi ra ngoài  và sau khi vào nhà thì phải đi bằng ép nhẹ trong nhà</li>
+                            <li>Ăn những món sống như cá,…</li>
+                            <li>Ăn mù ramen hay Soba húp sùm sụp vì theo quan niệm của người Nhật ăn như thế mới thể hiện cho người đầu bếp thấy được là món ăn rất ngon.</li>
+                        </ul>
+                    </div><div class="single-share-box"><div class="share-link-description">Share this post</div><div class="share-buttons"><a class="facebook" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Foishitown.com%2Fnhung-net-van-hoa-dac-sac-cua-nhat-ban.html&#038;t=Nh%E1%BB%AFng+n%C3%A9t+v%C4%83n+ho%C3%A1+%C4%91%E1%BA%B7c+s%E1%BA%AFc+c%E1%BB%A7a+Nh%E1%BA%ADt+B%E1%BA%A3n" title="Facebook" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Facebook</span></a><a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Foishitown.com%2Fnhung-net-van-hoa-dac-sac-cua-nhat-ban.html&#038;text=Nh%E1%BB%AFng+n%C3%A9t+v%C4%83n+ho%C3%A1+%C4%91%E1%BA%B7c+s%E1%BA%AFc+c%E1%BB%A7a+Nh%E1%BA%ADt+B%E1%BA%A3n" title="Twitter" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Twitter</span></a><a class="google" href="http://plus.google.com/share?url=http%3A%2F%2Foishitown.com%2Fnhung-net-van-hoa-dac-sac-cua-nhat-ban.html&#038;title=Nh%E1%BB%AFng+n%C3%A9t+v%C4%83n+ho%C3%A1+%C4%91%E1%BA%B7c+s%E1%BA%AFc+c%E1%BB%A7a+Nh%E1%BA%ADt+B%E1%BA%A3n" title="Google+" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Google+</span></a><a class="pinterest pinit-marklet" href="//pinterest.com/pin/create/button/" title="Pinterest" target="_blank" data-pin-config="above" data-pin-do="buttonBookmark"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Pinterest</span></a><a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&#038;url=http%3A%2F%2Foishitown.com%2Fnhung-net-van-hoa-dac-sac-cua-nhat-ban.html&#038;title=Nh%E1%BB%AFng%20n%C3%A9t%20v%C4%83n%20ho%C3%A1%20%C4%91%E1%BA%B7c%20s%E1%BA%AFc%20c%E1%BB%A7a%20Nh%E1%BA%ADt%20B%E1%BA%A3n&#038;summary=&#038;source=oishitown.com" title="LinkedIn" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with LinkedIn</span></a><a class="whatsapp" href="whatsapp://send?text=Nh%E1%BB%AFng%20n%C3%A9t%20v%C4%83n%20ho%C3%A1%20%C4%91%E1%BA%B7c%20s%E1%BA%AFc%20c%E1%BB%A7a%20Nh%E1%BA%ADt%20B%E1%BA%A3n%20-%20http%3A%2F%2Foishitown.com%2Fnhung-net-van-hoa-dac-sac-cua-nhat-ban.html" title="WhatsApp" target="_blank" data-action="share/whatsapp/share"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with WhatsApp</span></a></div></div><div class="single-related-posts"><h3>Related posts</h3><section class="items-grid"><div class=" related-item"><article class="post-format-standard"><div class="mini-post-img"><a class="alignleft post-rollover layzr-bg" href="http://oishitown.com/pho-nhat-ban-oishi-town.html"><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20110%2080&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/04/demo_oishitown-110x80.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/04/demo_oishitown-110x80.jpg 110w, http://oishitown.com/wp-content/uploads/2018/04/demo_oishitown-220x160.jpg 220w" width="110" height="80" alt="" /></a></div><div class="post-content"><a href="http://oishitown.com/pho-nhat-ban-oishi-town.html">Phố Nhật Bản Oishi Town</a><br /><time class="text-secondary" datetime="2018-04-19T06:25:57+00:00">19/04/2018</time></div></article></div></section></div>
+                </article>
+
+
+            </div><!-- #content -->
+
+
+            <aside id="sidebar" class="sidebar bg-under-widget">
+                <div class="sidebar-content widget-divider-off">
+                    <section id="nav_menu-2" class="widget widget_nav_menu">
+                        <div class="widget-title">Đối tác</div><div class="menu-doi-tac-container">
+                            <ul id="menu-doi-tac" class="menu">
+                                <li id="menu-item-4197" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4197"><a href="/partner/detail">HALULU Nail</a></li>
+                                <li id="menu-item-4198" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4198"><a href="http://oishitown.com/tenant/cafe-latte">Cafe Latte</a></li>
+                                <li id="menu-item-4480" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4480"><a href="http://oishitown.com/tenant/sai-gon-bar">Saigon Bar</a></li>
+                                <li id="menu-item-4200" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4200"><a href="http://oishitown.com/tenant/kins-shop">Kin&#8217;s Shop</a></li>
+                                <li id="menu-item-4201" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4201"><a href="http://oishitown.com/tenant/nha-hang-mekong-kichen">Nhà hàng Mekong Kichen</a></li>
+                                <li id="menu-item-4202" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4202"><a href="http://oishitown.com/tenant/nha-hang-o-thuong">Nhà hàng Ơ Thương</a></li>
+                                <li id="menu-item-4203" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4203"><a href="http://oishitown.com/tenant/tonkotsu-ittou">Tonkotsu Ittou</a></li>
+                                <li id="menu-item-4204" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4204"><a href="http://oishitown.com/tenant/nha-hang-sushi-roll">Temaki Roll</a></li>
+                                <li id="menu-item-4206" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4206"><a href="http://oishitown.com/tenant/nha-hang-teppanyaki">The Meatball&#8217;s House</a></li>
+                                <li id="menu-item-4207" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4207"><a href="http://oishitown.com/tenant/sake-bar">Hem Bar</a></li>
+                                <li id="menu-item-4208" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4208"><a href="http://oishitown.com/tenant/maru-chan">Seafood &#038; BBQ Maru-Chan</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </aside><!-- #sidebar -->
+
+
+
+
+
+        </div><!-- .wf-container -->
+    </div><!-- .wf-wrap -->
+</div><!-- #main -->

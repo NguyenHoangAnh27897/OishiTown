@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="masthead inline-header left widgets shadow-decoration small-mobile-menu-icon dt-parent-menu-clickable show-device-logo show-mobile-logo" role="banner">
+
+    <div class="top-bar top-bar-empty top-bar-line-hide">
+        <div class="top-bar-bg"></div>
+        <div class="mini-widgets left-widgets"></div>			<div class="mini-widgets right-widgets"></div>
+    </div>
+
+    <header class="header-bar">
+
+        <div class="branding">
+            <div id="site-title" class="assistive-text">oishitown.com</div>
+            <div id="site-description" class="assistive-text">Phố Nhật Bản Oishi Town</div>
+            <a href="http://oishitown.com/"><img class=" preload-me" src="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown.png" srcset="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown.png 136w, http://oishitown.com/wp-content/uploads/2018/04/logo.png 416w" width="136" height="68" sizes="136px" alt="oishitown.com" /><img class="mobile-logo preload-me" src="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown_1x.png" srcset="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown_1x.png 97w" width="97" height="49" sizes="97px" alt="oishitown.com" /></a>
+        </div>
+        <ul id="primary-menu" class="main-nav underline-decoration l-to-r-line" role="menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4065 first"><a href='/home/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Trang chủ</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4064"><a href='/home/about' data-level='1'><span class="menu-item-text"><span class="menu-text">Giới thiệu</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href='/customer/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Khách hàng</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4060 current_page_item menu-item-4112 act"><a href='/event/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Sự kiện</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4293"><a href='/news/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Tin tức</span></span></a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4063"><a href='/home/contact' data-level='1'><span class="menu-item-text"><span class="menu-text">Liên hệ</span></span></a></li>
+            <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-vi"><a href='http://oishitown.com' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt"></span></span></a></li>
+            <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-en"><a href='http://oishitown.com?lang=en' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"></span></span></a></li>
+        </ul>
+        <div class="mini-widgets">
+            <div class="mini-search show-on-desktop near-logo-first-switch near-logo-second-switch">
+                <form class="searchform" role="search" method="get" action="http://oishitown.com/">
+
+                    <label for="search" class="screen-reader-text">Search:</label>
+                    <input type="text" class="field searchform-s" name="s" value="" placeholder="Type and hit enter &hellip;" />
+                    <input type="hidden" name="lang" value="vi" />		<input type="submit" class="assistive-text searchsubmit" value="Go!" />
+                    <a href="#go" id="trigger-overlay" class="submit">Tìm kiếm</a>
+                </form>
+            </div><div class="soc-ico show-on-desktop in-top-bar-right in-menu-second-switch custom-bg disabled-border border-off hover-accent-bg hover-disabled-border  hover-border-off"><a title="Facebook" href="https://www.facebook.com/oishitownthaodien/" target="_blank" class="facebook"><span class="soc-font-icon"></span><span class="screen-reader-text">Facebook</span></a><a title="Twitter" href="/" target="_blank" class="twitter"><span class="soc-font-icon"></span><span class="screen-reader-text">Twitter</span></a><a title="Google+" href="/" target="_blank" class="google"><span class="soc-font-icon"></span><span class="screen-reader-text">Google+</span></a></div>
+        </div>
+    </header>
+
+</div><div class='dt-close-mobile-menu-icon'><span></span></div>
+<div class='dt-mobile-header'>
+    <ul id="mobile-menu" class="mobile-main-nav" role="menu">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4065"><a href='/home/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Trang chủ</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4064"><a href='/home/about' data-level='1'><span class="menu-item-text"><span class="menu-text">Giới thiệu</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href='/customer/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Khách hàng</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4112"><a href='/event/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Sự kiện</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4293"><a href='/news/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Tin tức</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4063"><a href='/home/contact' data-level='1'><span class="menu-item-text"><span class="menu-text">Liên hệ</span></span></a></li>
+        <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-vi"><a href='http://oishitown.com' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt"></span></span></a></li>
+        <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-en"><a href='http://oishitown.com?lang=en' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"></span></span></a></li>
+    </ul>
+    <div class='mobile-mini-widgets-in-menu'></div>
+</div>
+<div class="page-title title-left solid-bg breadcrumbs-mobile-off page-title-responsive-enabled">
+    <div class="wf-wrap">
+
+        <div class="page-title-head hgroup"><h1 class="entry-title">Khai trương khu phố Nhật Bản Oishi Town</h1></div><div class="page-title-breadcrumbs"><div class="assistive-text">You are here:</div><ol class="breadcrumbs text-small" xmlns:v="http://rdf.data-vocabulary.org/#"><li typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://oishitown.com/" title="">Home</a></li><li typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://oishitown.com/su-kien">Sự kiện</a></li><li class="current">Khai trương khu phố Nhật&hellip;</li></ol></div>
+    </div>
+</div>
+
+
+
+<div id="main" class="sidebar-right sidebar-divider-off">
+
+
+    <div class="main-gradient"></div>
+    <div class="wf-wrap">
+        <div class="wf-container-main">
+
+
+
+
+
+            <div id="content" class="content" role="main">
+
+
+
+                <article id="post-4847" class="post-4847 post type-post status-publish format-standard has-post-thumbnail category-su-kien category-2 description-off">
+
+                    <div class="post-thumbnail"><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%201440%20720&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/06/timeline-oishitown-1440x720.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/06/timeline-oishitown-1440x720.jpg 1440w" width="1440" height="720" title="timeline-oishitown" alt="" /></div><div class="entry-content">
+                        <p>Sau một thời gian dài chờ đợi, phố Nhật Bản Oishi Town sẽ chính thức khai trương vào ngày 1 tháng 7 tại 28 Thảo Điền, Quận 2, Tp Hồ Chí Minh</p>
+                        <p>Với thiết kế độc đáo, không gian rộng rãi ngập tràn bản sắc của xứ sở hoa Anh Đào, Oishi Town được chờ mong không chỉ mang lại cảm giác thoải mái, gần gũi mà còn đem lại những món ngon cùng sự trải nghiệm tuyệt vời nhất cho khách hàng khi đến đây. Hoàn thiện về không gian lẫn thực đơn, kết hợp cùng những chương trình khuyến mãi hấp dẫn là cơ hội để Oishi Town trở thành một điểm đến ăn uống- giải trí phù hợp cho mọi lứa tuổi, đặc biệt là những ai đặc biệt yêu thích văn hóa Nhật Bản đang làm việc và sinh sống tại thành phố Hồ Chí Minh. Trong tuần đầu tiên khai trương, những ai đến với Oishi Town đều được hưởng ưu đãi khuyến mãi lên đến 50%.</p>
+                        <p>Ngoài ra, để góp thêm phần hào hứng, sôi động cho chương trình khai trương thì những tiết mục giải trí hấp dẫn là không thể thiếu. Oishi Town chính thức khai trương sau khi cắt bang khánh thành và tiếp tục những chương trình là những tiết mục như:</p>
+                        <p>Nhân viên đón khách trong bộ Yukata cùng nụ cười niềm nở và thái độ chuyên nghiệp:</p>
+                        <ul>
+                            <li> 9h30 &#8211; 10h30: Đón khách <span class="_5mfr _47e3"><img class="img" role="presentation" src="https://static.xx.fbcdn.net/images/emoji.php/v9/fb8/1/16/1f38e.png" alt="" width="16" height="16" /><span class="_7oe">🎎</span></span><span class="_5mfr _47e3"><img class="img" role="presentation" src="https://static.xx.fbcdn.net/images/emoji.php/v9/f76/1/16/1f1ef_1f1f5.png" alt="" width="16" height="16" /><span class="_7oe">🇯🇵</span></span>️<span class="_5mfr _47e3"><img class="img" role="presentation" src="https://static.xx.fbcdn.net/images/emoji.php/v9/f48/1/16/1f363.png" alt="" width="16" height="16" /><span class="_7oe">🍣</span></span><span class="_5mfr _47e3"><img class="img" role="presentation" src="https://static.xx.fbcdn.net/images/emoji.php/v9/fc9/1/16/1f364.png" alt="" width="16" height="16" /><span class="_7oe">🍤</span></span><span class="_5mfr _47e3"><img class="img" role="presentation" src="https://static.xx.fbcdn.net/images/emoji.php/v9/f46/1/16/1f361.png" alt="" width="16" height="16" /><span class="_7oe">🍡</span></span></li>
+                            <li>11hh00: Cắt băng khánh thành chính thức khai trương.</li>
+                            <li>11h20: Yukata- lễ phục truyền thống của xứ sở Hoa Anh Đào</li>
+                            <li>11h25: Kagami-Biraki – một hoạt động truyền thống của người Nhật vào những dịp đặc biệt</li>
+                            <li>11h35: Cùng nhau thả bóng bay lên trời như hi vọng một tương lai tươi sáng.</li>
+                            <li>19h30 – 20h30: Những tiết mục âm nhạc tuyệt vời của đất nước mặt trời mọc, được thể hiện bởi những ca sĩ người Nhật.</li>
+                            <li>Cả ngày: Chương trình bốc thăm trúng thưởng khi ăn uống và mua sắm tại Oishi Town.</li>
+                        </ul>
+                        <p style="text-align: center;"><img class="alignnone size-full wp-image-4819" src="http://oishitown.com/wp-content/uploads/2018/06/Facebook-oishitow-1200x850.png" alt="" width="1200" height="850" srcset="http://oishitown.com/wp-content/uploads/2018/06/Facebook-oishitow-1200x850.png 1200w, http://oishitown.com/wp-content/uploads/2018/06/Facebook-oishitow-1200x850-768x544.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /><em>Chúc quý khách có những trải nghiệm vui vẻ tại Oishi Town</em></p>
+                    </div><div class="single-share-box"><div class="share-link-description">Share this post</div><div class="share-buttons"><a class="facebook" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Foishitown.com%2Fkhai-truong-khu-pho-nhat-ban-oishi-town-2.html&#038;t=Khai+tr%C6%B0%C6%A1ng+khu+ph%E1%BB%91+Nh%E1%BA%ADt+B%E1%BA%A3n+Oishi+Town" title="Facebook" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Facebook</span></a><a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Foishitown.com%2Fkhai-truong-khu-pho-nhat-ban-oishi-town-2.html&#038;text=Khai+tr%C6%B0%C6%A1ng+khu+ph%E1%BB%91+Nh%E1%BA%ADt+B%E1%BA%A3n+Oishi+Town" title="Twitter" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Twitter</span></a><a class="google" href="http://plus.google.com/share?url=http%3A%2F%2Foishitown.com%2Fkhai-truong-khu-pho-nhat-ban-oishi-town-2.html&#038;title=Khai+tr%C6%B0%C6%A1ng+khu+ph%E1%BB%91+Nh%E1%BA%ADt+B%E1%BA%A3n+Oishi+Town" title="Google+" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Google+</span></a><a class="pinterest pinit-marklet" href="//pinterest.com/pin/create/button/" title="Pinterest" target="_blank" data-pin-config="above" data-pin-do="buttonBookmark"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Pinterest</span></a><a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&#038;url=http%3A%2F%2Foishitown.com%2Fkhai-truong-khu-pho-nhat-ban-oishi-town-2.html&#038;title=Khai%20tr%C6%B0%C6%A1ng%20khu%20ph%E1%BB%91%20Nh%E1%BA%ADt%20B%E1%BA%A3n%20Oishi%20Town&#038;summary=&#038;source=oishitown.com" title="LinkedIn" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with LinkedIn</span></a><a class="whatsapp" href="whatsapp://send?text=Khai%20tr%C6%B0%C6%A1ng%20khu%20ph%E1%BB%91%20Nh%E1%BA%ADt%20B%E1%BA%A3n%20Oishi%20Town%20-%20http%3A%2F%2Foishitown.com%2Fkhai-truong-khu-pho-nhat-ban-oishi-town-2.html" title="WhatsApp" target="_blank" data-action="share/whatsapp/share"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with WhatsApp</span></a></div></div><div class="single-related-posts"><h3>Related posts</h3><section class="items-grid"><div class=" related-item"><article class="post-format-standard"><div class="mini-post-img"><a class="alignleft post-rollover layzr-bg" href="http://oishitown.com/nha-hang-o-thuong-uu-dai-mung-khai-truong-chi-nhanh-moi-tai-thanh-pho-ho-chi-minh.html"><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20110%2080&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/06/500-x-700-110x80.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/06/500-x-700-110x80.jpg 110w, http://oishitown.com/wp-content/uploads/2018/06/500-x-700-220x160.jpg 220w" width="110" height="80" alt="" /></a></div><div class="post-content"><a href="http://oishitown.com/nha-hang-o-thuong-uu-dai-mung-khai-truong-chi-nhanh-moi-tai-thanh-pho-ho-chi-minh.html">Nhà hàng Ơ Thương ưu đãi mừng khai trương chi nhánh mới tại Thành phố Hồ Chí Minh.</a><br /><time class="text-secondary" datetime="2018-06-25T09:54:04+00:00">25/06/2018</time></div></article></div><div class=" related-item"><article class="post-format-standard"><div class="mini-post-img"><a class="alignleft post-rollover layzr-bg" href="http://oishitown.com/event-japan-2018.html"><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20110%2080&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/04/beer-flight-110x80.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/04/beer-flight-110x80.jpg 110w, http://oishitown.com/wp-content/uploads/2018/04/beer-flight-220x160.jpg 220w" width="110" height="80" alt="" /></a></div><div class="post-content"><a href="http://oishitown.com/event-japan-2018.html">Event japan 2018</a><br /><time class="text-secondary" datetime="2018-04-19T22:51:22+00:00">19/04/2018</time></div></article></div></section></div>
+                </article>
+
+
+            </div><!-- #content -->
+
+
+            <aside id="sidebar" class="sidebar bg-under-widget">
+                <div class="sidebar-content widget-divider-off">
+                    <section id="nav_menu-2" class="widget widget_nav_menu">
+                        <div class="widget-title">Đối tác</div><div class="menu-doi-tac-container">
+                            <ul id="menu-doi-tac" class="menu">
+                                <li id="menu-item-4197" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4197"><a href="/partner/detail">HALULU Nail</a></li>
+                                <li id="menu-item-4198" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4198"><a href="http://oishitown.com/tenant/cafe-latte">Cafe Latte</a></li>
+                                <li id="menu-item-4480" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4480"><a href="http://oishitown.com/tenant/sai-gon-bar">Saigon Bar</a></li>
+                                <li id="menu-item-4200" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4200"><a href="http://oishitown.com/tenant/kins-shop">Kin&#8217;s Shop</a></li>
+                                <li id="menu-item-4201" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4201"><a href="http://oishitown.com/tenant/nha-hang-mekong-kichen">Nhà hàng Mekong Kichen</a></li>
+                                <li id="menu-item-4202" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4202"><a href="http://oishitown.com/tenant/nha-hang-o-thuong">Nhà hàng Ơ Thương</a></li>
+                                <li id="menu-item-4203" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4203"><a href="http://oishitown.com/tenant/tonkotsu-ittou">Tonkotsu Ittou</a></li>
+                                <li id="menu-item-4204" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4204"><a href="http://oishitown.com/tenant/nha-hang-sushi-roll">Temaki Roll</a></li>
+                                <li id="menu-item-4206" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4206"><a href="http://oishitown.com/tenant/nha-hang-teppanyaki">The Meatball&#8217;s House</a></li>
+                                <li id="menu-item-4207" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4207"><a href="http://oishitown.com/tenant/sake-bar">Hem Bar</a></li>
+                                <li id="menu-item-4208" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4208"><a href="http://oishitown.com/tenant/maru-chan">Seafood &#038; BBQ Maru-Chan</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </aside><!-- #sidebar -->
+
+
+
+
+
+        </div><!-- .wf-container -->
+    </div><!-- .wf-wrap -->
+</div><!-- #main -->

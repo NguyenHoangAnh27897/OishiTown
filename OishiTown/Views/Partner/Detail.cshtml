@@ -1,0 +1,374 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="masthead inline-header left widgets shadow-decoration small-mobile-menu-icon dt-parent-menu-clickable show-device-logo show-mobile-logo" role="banner">
+
+    <div class="top-bar top-bar-empty top-bar-line-hide">
+        <div class="top-bar-bg"></div>
+        <div class="mini-widgets left-widgets"></div>			<div class="mini-widgets right-widgets"></div>
+    </div>
+
+    <header class="header-bar">
+
+        <div class="branding">
+            <div id="site-title" class="assistive-text">oishitown.com</div>
+            <div id="site-description" class="assistive-text">Phố Nhật Bản Oishi Town</div>
+            <a href="http://oishitown.com/"><img class=" preload-me" src="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown.png" srcset="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown.png 136w, http://oishitown.com/wp-content/uploads/2018/04/logo.png 416w" width="136" height="68" sizes="136px" alt="oishitown.com" /><img class="mobile-logo preload-me" src="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown_1x.png" srcset="http://oishitown.com/wp-content/uploads/2018/04/Logo-oishitown_1x.png 97w" width="97" height="49" sizes="97px" alt="oishitown.com" /></a>
+        </div>
+        <ul id="primary-menu" class="main-nav underline-decoration l-to-r-line" role="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4065 first"><a href='http://oishitown.com' data-level='1'><span class="menu-item-text"><span class="menu-text">Trang chủ</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4064"><a href='http://oishitown.com/gioi-thieu' data-level='1'><span class="menu-item-text"><span class="menu-text">Giới thiệu</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href='http://oishitown.com/khach-hang' data-level='1'><span class="menu-item-text"><span class="menu-text">Khách hàng</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4112"><a href='http://oishitown.com/su-kien' data-level='1'><span class="menu-item-text"><span class="menu-text">Sự kiện</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4293"><a href='http://oishitown.com/tin-tuc' data-level='1'><span class="menu-item-text"><span class="menu-text">Tin tức</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4063"><a href='http://oishitown.com/lien-he' data-level='1'><span class="menu-item-text"><span class="menu-text">Liên hệ</span></span></a></li> <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-vi"><a href='http://oishitown.com/tenant/kelly-nail' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt"></span></span></a></li> </ul>
+        <div class="mini-widgets">
+            <div class="mini-search show-on-desktop near-logo-first-switch near-logo-second-switch">
+                <form class="searchform" role="search" method="get" action="http://oishitown.com/">
+
+                    <label for="search" class="screen-reader-text">Search:</label>
+                    <input type="text" class="field searchform-s" name="s" value="" placeholder="Type and hit enter &hellip;" />
+                    <input type="hidden" name="lang" value="vi" />		<input type="submit" class="assistive-text searchsubmit" value="Go!" />
+                    <a href="#go" id="trigger-overlay" class="submit">Tìm kiếm</a>
+                </form>
+            </div><div class="soc-ico show-on-desktop in-top-bar-right in-menu-second-switch custom-bg disabled-border border-off hover-accent-bg hover-disabled-border  hover-border-off"><a title="Facebook" href="https://www.facebook.com/oishitownthaodien/" target="_blank" class="facebook"><span class="soc-font-icon"></span><span class="screen-reader-text">Facebook</span></a><a title="Twitter" href="/" target="_blank" class="twitter"><span class="soc-font-icon"></span><span class="screen-reader-text">Twitter</span></a><a title="Google+" href="/" target="_blank" class="google"><span class="soc-font-icon"></span><span class="screen-reader-text">Google+</span></a></div>
+        </div>
+    </header>
+
+</div><div class='dt-close-mobile-menu-icon'><span></span></div>
+<div class='dt-mobile-header'>
+    <ul id="mobile-menu" class="mobile-main-nav" role="menu">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4065 first"><a href='/home/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Trang chủ</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4064"><a href='/home/about' data-level='1'><span class="menu-item-text"><span class="menu-text">Giới thiệu</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href='/customer/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Khách hàng</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4112"><a href='/event/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Sự kiện</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4293"><a href='/news/index' data-level='1'><span class="menu-item-text"><span class="menu-text">Tin tức</span></span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4063"><a href='/home/contact' data-level='1'><span class="menu-item-text"><span class="menu-text">Liên hệ</span></span></a></li>
+        <li class="menu-item wpml-ls-slot-123 wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-123-vi"><a href='http://oishitown.com/tenant/kelly-nail' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="http://oishitown.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt"></span></span></a></li>
+    </ul>
+    <div class='mobile-mini-widgets-in-menu'></div>
+</div>
+
+
+<div id="main-slideshow" data-width="1200" data-height="500" data-autoslide="5000" data-scale="fill" data-paused="true"></div>
+
+<div id="main" class="sidebar-right sidebar-divider-off">
+
+
+    <div class="main-gradient"></div>
+    <div class="wf-wrap">
+        <div class="wf-container-main">
+
+
+
+
+
+            <div id="content" class="content" role="main">
+
+
+
+                <article id="post-4048" class="project-post post-4048 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail dt_portfolio_category-tien-ich-khac dt_portfolio_category-143 description-off">
+
+                    <div class="project-content">
+                        <div class="vc_row wpb_row vc_row-fluid">
+                            <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
+                                <div class="vc_column-inner vc_custom_1526308885127">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                            <figure class="wpb_wrapper vc_figure">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img class="vc_single_image-img " src="http://oishitown.com/wp-content/uploads/2018/04/21.Halulu-nail-150x150.jpg" width="150" height="150" alt="21.Halulu nail" title="21.Halulu nail" data-dt-location="http://oishitown.com/tenant/kelly-nail/21-halulu-nail" /></div>
+                                            </figure>
+                                        </div>
+                                        <h2 style="font-size: 32px;text-align: center;font-family:Maven Pro;font-weight:500;font-style:normal" class="vc_custom_heading">Kelly Nail - Steam &amp; Sauna Nano</h2>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <p style="text-align: center;">Halulu &#8211; nơi bạn thật sự thư giãn với không gian sang trọng, tinh tế và trải nghiệm chất lượng dịch vụ chuyên nghiệp, chu đáo.</p>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <p style="text-align: center;">Điện thoại: 0918 622 288</p>
+                                                <p style="text-align: center;">Business hour: 9h -20h</p>
+
+                                            </div>
+                                        </div>
+                                        <style type="text/css" data-type="the7_shortcodes-inline-css">
+                                            .dt-shortcode-soc-icons.soc-icons-1 a {
+                                                margin-right: 4px;
+                                            }
+
+                                            .dt-shortcode-soc-icons a.soc-icons-1 {
+                                                min-width:;
+                                                min-height:;
+                                                font-size:;
+                                                border-radius:;
+                                                margin-right: 4px;
+                                            }
+
+                                                .dt-shortcode-soc-icons a.soc-icons-1:last-child {
+                                                    margin-right: 0;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.soc-icons-1:before,
+                                                .dt-shortcode-soc-icons a.soc-icons-1:after {
+                                                    min-width:;
+                                                    min-height:;
+                                                    padding: inherit;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.soc-icons-1:before {
+                                                    border: solid;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.soc-icons-1:after {
+                                                    border: solid;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.soc-icons-1:hover {
+                                                    font-size:;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.soc-icons-1 .soc-font-icon {
+                                                    font-size:;
+                                                }
+
+                                            .dt-shortcode-soc-icons.single-soc-icon-1 a {
+                                                margin-right:;
+                                            }
+
+                                            .dt-shortcode-soc-icons a.single-soc-icon-1 {
+                                                min-width: 26px;
+                                                min-height: 26px;
+                                                font-size: 16px;
+                                                border-radius: 100px;
+                                                margin-right:;
+                                            }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-1:last-child {
+                                                    margin-right: 0;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-1:before,
+                                                .dt-shortcode-soc-icons a.single-soc-icon-1:after {
+                                                    min-width: 26px;
+                                                    min-height: 26px;
+                                                    padding: inherit;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-1:before {
+                                                    border: 0px solid;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-1:after {
+                                                    border: 0px solid;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-1:hover {
+                                                    font-size: 16px;
+                                                }
+
+                                            #page .dt-shortcode-soc-icons a.single-soc-icon-1:hover .soc-font-icon,
+                                            #phantom .dt-shortcode-soc-icons a.single-soc-icon-1:hover .soc-font-icon {
+                                                color: rgba(255,255,255,0.75);
+                                                -webkit-text-fill-color: rgba(255,255,255,0.75);
+                                                background: none;
+                                            }
+
+                                            #page .dt-shortcode-soc-icons a.single-soc-icon-1:not(:hover) .soc-font-icon,
+                                            #phantom .dt-shortcode-soc-icons a.single-soc-icon-1:not(:hover) .soc-font-icon {
+                                                color: #ffffff;
+                                                -webkit-text-fill-color: #ffffff;
+                                                background: none;
+                                            }
+
+                                            .dt-shortcode-soc-icons a.single-soc-icon-1 .soc-font-icon {
+                                                font-size: 16px;
+                                            }
+
+                                            .dt-shortcode-soc-icons.single-soc-icon-2 a {
+                                                margin-right:;
+                                            }
+
+                                            .dt-shortcode-soc-icons a.single-soc-icon-2 {
+                                                min-width: 26px;
+                                                min-height: 26px;
+                                                font-size: 16px;
+                                                border-radius: 100px;
+                                                margin-right:;
+                                            }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-2:last-child {
+                                                    margin-right: 0;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-2:before,
+                                                .dt-shortcode-soc-icons a.single-soc-icon-2:after {
+                                                    min-width: 26px;
+                                                    min-height: 26px;
+                                                    padding: inherit;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-2:before {
+                                                    border: 0px solid;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-2:after {
+                                                    border: 0px solid;
+                                                }
+
+                                                .dt-shortcode-soc-icons a.single-soc-icon-2:hover {
+                                                    font-size: 16px;
+                                                }
+
+                                            #page .dt-shortcode-soc-icons a.single-soc-icon-2:hover .soc-font-icon,
+                                            #phantom .dt-shortcode-soc-icons a.single-soc-icon-2:hover .soc-font-icon {
+                                                color: rgba(255,255,255,0.75);
+                                                -webkit-text-fill-color: rgba(255,255,255,0.75);
+                                                background: none;
+                                            }
+
+                                            #page .dt-shortcode-soc-icons a.single-soc-icon-2:not(:hover) .soc-font-icon,
+                                            #phantom .dt-shortcode-soc-icons a.single-soc-icon-2:not(:hover) .soc-font-icon {
+                                                color: #ffffff;
+                                                -webkit-text-fill-color: #ffffff;
+                                                background: none;
+                                            }
+
+                                            .dt-shortcode-soc-icons a.single-soc-icon-2 .soc-font-icon {
+                                                font-size: 16px;
+                                            }
+                                        </style><div class="dt-shortcode-soc-icons soc-icons-1 soc-icons-center  vc_custom_1524124517537"><a title="Facebook" href="https://www.facebook.com/KellyNailSaunaNano/" target="_blank" class="facebook single-soc-icon-1 dt-icon-bg-on dt-icon-hover-bg-on  "><i class="soc-font-icon dt-icon-facebook"></i><span class="screen-reader-text">Facebook</span></a><a title="Dribbble" href="http://www.mienform.com/home " target="_blank" class="dribbble single-soc-icon-2 dt-icon-bg-on dt-icon-hover-bg-on  "><i class="soc-font-icon dt-icon-dribbble"></i><span class="screen-reader-text">Dribbble</span></a></div><div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
+                                        <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text">
+                                            <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>Hình ảnh</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+                                        </div><div class="wf-container dt-gallery-container dt-photos-shortcode resize-by-browser-width loading-effect-none iso-container" data-padding="5px" data-cur-page="1" data-desktop-columns-num="3" data-v-tablet-columns-num="3" data-h-tablet-columns-num="3" data-phone-columns-num="3" data-width="370px" data-columns="2">
+                                            <div class="wf-cell iso-item" data-post-id="4570" data-date="2018-06-15T14:44:35+00:00" data-name="Kelly - 7">
+                                                <article class="post post-4570 attachment type-attachment status-inherit no-img description-off">
+
+                                                    <figure class="rollover-project links-hovers-disabled">
+                                                        <a href="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7-1.jpg" class="rollover rollover-zoom dt-pswp-item layzr-bg" title="Kelly &#8211; 7" data-dt-img-description="" data-large_image_width="800" data-large_image_height="579"><img class="iso-lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20579%20579&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7-1-579x579.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7-1-579x579.jpg 579w" alt="" width="579" height="579" /></a>
+                                                    </figure>
+                                                </article>
+
+                                            </div><div class="wf-cell iso-item" data-post-id="4569" data-date="2018-06-15T14:44:32+00:00" data-name="Kelly - 6">
+                                                <article class="post post-4569 attachment type-attachment status-inherit no-img description-off">
+
+                                                    <figure class="rollover-project links-hovers-disabled">
+                                                        <a href="http://oishitown.com/wp-content/uploads/2018/06/Kelly-6-1.jpg" class="rollover rollover-zoom dt-pswp-item layzr-bg" title="Kelly &#8211; 6" data-dt-img-description="" data-large_image_width="546" data-large_image_height="406"><img class="iso-lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20406%20406&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-6-1-406x406.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-6-1-406x406.jpg 406w" alt="" width="406" height="406" /></a>
+                                                    </figure>
+                                                </article>
+
+                                            </div><div class="wf-cell iso-item" data-post-id="4568" data-date="2018-06-15T14:44:30+00:00" data-name="Kelly - 5">
+                                                <article class="post post-4568 attachment type-attachment status-inherit no-img description-off">
+
+                                                    <figure class="rollover-project links-hovers-disabled">
+                                                        <a href="http://oishitown.com/wp-content/uploads/2018/06/Kelly-5-1.jpg" class="rollover rollover-zoom dt-pswp-item layzr-bg" title="Kelly &#8211; 5" data-dt-img-description="" data-large_image_width="720" data-large_image_height="810"><img class="iso-lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20720%20720&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-5-1-720x720.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-5-1-720x720.jpg 720w" alt="" width="720" height="720" /></a>
+                                                    </figure>
+                                                </article>
+
+                                            </div><div class="wf-cell iso-item" data-post-id="4558" data-date="2018-06-15T14:40:44+00:00" data-name="Kelly - 7">
+                                                <article class="post post-4558 attachment type-attachment status-inherit no-img description-off">
+
+                                                    <figure class="rollover-project links-hovers-disabled">
+                                                        <a href="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7.jpg" class="rollover rollover-zoom dt-pswp-item layzr-bg" title="Kelly &#8211; 7" data-dt-img-description="" data-large_image_width="800" data-large_image_height="579"><img class="iso-lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20579%20579&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7-579x579.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7-579x579.jpg 579w" alt="" width="579" height="579" /></a>
+                                                    </figure>
+                                                </article>
+
+                                            </div><div class="wf-cell iso-item" data-post-id="4566" data-date="2018-06-15T14:44:25+00:00" data-name="Kelly - 2">
+                                                <article class="post post-4566 attachment type-attachment status-inherit no-img description-off">
+
+                                                    <figure class="rollover-project links-hovers-disabled">
+                                                        <a href="http://oishitown.com/wp-content/uploads/2018/06/Kelly-2-1.jpg" class="rollover rollover-zoom dt-pswp-item layzr-bg" title="Kelly &#8211; 2" data-dt-img-description="" data-large_image_width="8734" data-large_image_height="5822"><img class="iso-lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%201080%201080&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-2-1-1080x1080.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-2-1-1080x1080.jpg 1080w, http://oishitown.com/wp-content/uploads/2018/06/Kelly-2-1-2160x2160.jpg 2160w" alt="" width="1080" height="1080" /></a>
+                                                    </figure>
+                                                </article>
+
+                                            </div><div class="wf-cell iso-item" data-post-id="4627" data-date="2018-06-16T22:16:53+00:00" data-name="Fashion Beauty. Manicure and Make-up. Nail Art">
+                                                <article class="post post-4627 attachment type-attachment status-inherit no-img description-off">
+
+                                                    <figure class="rollover-project links-hovers-disabled">
+                                                        <a href="http://oishitown.com/wp-content/uploads/2018/06/Kelly-10-1.jpeg" class="rollover rollover-zoom dt-pswp-item layzr-bg" title="Fashion Beauty. Manicure and Make-up. Nail Art" data-dt-img-description="" data-large_image_width="1200" data-large_image_height="1308"><img class="iso-lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%201080%201080&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-10-1-1080x1080.jpeg" data-srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-10-1-1080x1080.jpeg 1080w, http://oishitown.com/wp-content/uploads/2018/06/Kelly-10-1-1200x1200.jpeg 1200w" alt="" width="1080" height="1080" /></a>
+                                                    </figure>
+                                                </article>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><div class="wpb_column vc_column_container vc_col-sm-8">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <p style="text-align: justify;">Chào mừng bạn đến với Halulu!</p>
+                                                <p style="text-align: justify;">Tại đây, chúng tôi cam kết luôn cung cấp cho bạn những trải nghiệm dịch vụ chất lượng tốt nhất với kỹ thuật công nghệ tiên tiến, cùng đội ngũ nhân viên có tay nghề cao. Để mỗi lần bạn ghé đến Halulu sẽ luôn là một trải nghiệm thú vị, đáng nhớ.</p>
+                                                <p style="text-align: justify;"><img class="alignnone size-full wp-image-4628" src="http://oishitown.com/wp-content/uploads/2018/04/Kelly-9.jpg" alt="" width="800" height="504" srcset="http://oishitown.com/wp-content/uploads/2018/04/Kelly-9.jpg 800w, http://oishitown.com/wp-content/uploads/2018/04/Kelly-9-768x484.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />Điều quan trọng đối với Halulu là sự tin tưởng, ủng hộ của khách hàng. Halulu chọn sự an toàn và vệ sinh là tiêu chí lớn trong hoạt động của mình. Nên tất cả các thiết bị, công cụ luôn được hấp, khử trùng trước khi sử dụng. Nhân viên của Halulu sẽ làm theo đúng quy trình để chắc chắn rằng các dịch vụ bạn sử dụng là chất lượng, an toàn, chuyên nghiệp và bạn luôn cảm thấy thoải mái, hài lòng.</p>
+                                                <p style="text-align: justify;">Cảm ơn bạn đã chọn Halulu!</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="single-share-box"><div class="share-link-description">Share this post</div><div class="share-buttons"><a class="facebook" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Foishitown.com%2Ftenant%2Fkelly-nail&#038;t=HALULU+Nail" title="Facebook" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Facebook</span></a><a class="twitter" href="https://twitter.com/share?url=http%3A%2F%2Foishitown.com%2Ftenant%2Fkelly-nail&#038;text=HALULU+Nail" title="Twitter" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Twitter</span></a><a class="google" href="http://plus.google.com/share?url=http%3A%2F%2Foishitown.com%2Ftenant%2Fkelly-nail&#038;title=HALULU+Nail" title="Google+" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Google+</span></a><a class="pinterest pinit-marklet" href="//pinterest.com/pin/create/button/" title="Pinterest" target="_blank" data-pin-config="above" data-pin-do="buttonBookmark"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with Pinterest</span></a><a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&#038;url=http%3A%2F%2Foishitown.com%2Ftenant%2Fkelly-nail&#038;title=HALULU%20Nail&#038;summary=&#038;source=oishitown.com" title="LinkedIn" target="_blank"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with LinkedIn</span></a><a class="whatsapp" href="whatsapp://send?text=HALULU%20Nail%20-%20http%3A%2F%2Foishitown.com%2Ftenant%2Fkelly-nail" title="WhatsApp" target="_blank" data-action="share/whatsapp/share"><span class="soc-font-icon"></span><span class="screen-reader-text">Share with WhatsApp</span></a></div></div><nav class="navigation post-navigation" role="navigation"><h2 class="screen-reader-text">Project navigation</h2><div class="nav-links"><a class="nav-previous" href="http://oishitown.com/tenant/edo-takoichi" rel="next"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="meta-nav" aria-hidden="true">Previous</span><span class="screen-reader-text">Previous project:</span><span class="post-title h4-size">Cửa hàng Edo Takoichi</span></a><a class="back-to-list" href="http://oishitown.com/khach-hang"><i class="fa fa-th" aria-hidden="true"></i></a><a class="nav-next" href="http://oishitown.com/tenant/nha-hang-sushi-roll" rel="prev"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="meta-nav" aria-hidden="true">Next</span><span class="screen-reader-text">Next project:</span><span class="post-title h4-size">Temaki Roll</span></a></div></nav>
+                </article>
+
+                <div class="single-related-posts">
+                    <h3>Related Tenant</h3><div class="arrows-accent related-projects slider-wrapper description-under-image content-align-centre" data-padding-side="30" data-autoslide="false" data-delay="" data-loop="false" data-max-width="80">
+                        <div class="frame fullwidth-slider">
+                            <ul class="clearfix">
+                                <li class="fs-entry">
+
+                                    <article class="post post-4050 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail dt_portfolio_category-mua-sam dt_portfolio_category-vui-choi dt_portfolio_category-luu-niem dt_portfolio_category-tien-ich-khac dt_portfolio_category-140 dt_portfolio_category-141 dt_portfolio_category-142 dt_portfolio_category-143 text-centered">
+
+                                        <div class="project-list-media">
+                                            <figure class="buttons-on-img ">
+                                                <a href="http://oishitown.com/tenant/kins-shop" class="alignnone rollover layzr-bg" title="kin"><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20304%20180&#39;%2F%3E" data-src="http://oishitown.com/wp-content/uploads/2018/04/kin-304x180.jpg" data-srcset="http://oishitown.com/wp-content/uploads/2018/04/kin-304x180.jpg 304w, http://oishitown.com/wp-content/uploads/2018/04/kin-608x360.jpg 608w" alt="" width="304" height="180" /></a>				<figcaption class="rollover-content">
+                                                    <div class="links-container"><a href="http://oishitown.com/wp-content/uploads/2018/04/kin.jpg" class="project-zoom dt-pswp-item dt-single-pswp-popup" title="kin" data-dt-img-description="" data-large_image_width="800" data-large_image_height="473">Zoom</a><a href="http://oishitown.com/tenant/kins-shop" class="project-details">Details</a></div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="project-list-content">
+                                            <h3 class="entry-title"><a href="http://oishitown.com/tenant/kins-shop" title="Kin&#8217;s Shop" rel="bookmark">Kin&#8217;s Shop</a></h3><div class="entry-meta portfolio-categories"><span class="category-link"><a href="http://oishitown.com/project-category/mua-sam">Mua sắm</a>, <a href="http://oishitown.com/project-category/vui-choi">Vui chơi</a>, <a href="http://oishitown.com/project-category/luu-niem">Lưu niệm</a>, <a href="http://oishitown.com/project-category/tien-ich-khac">Tiện ích khác</a></span></div>
+                                        </div>
+                                    </article>
+
+                                </li>
+                            </ul>
+                        </div><div class="prev"><i></i></div><div class="next"><i></i></div>
+                    </div>
+                </div>
+
+
+            </div><!-- #content -->
+
+
+            <aside id="sidebar" class="sidebar bg-under-widget">
+                <div class="sidebar-content widget-divider-off">
+                    <section id="nav_menu-2" class="widget widget_nav_menu">
+                        <div class="widget-title">Đối tác</div><div class="menu-doi-tac-container">
+                            <ul id="menu-doi-tac" class="menu">
+                                <li id="menu-item-4197" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio current-menu-item menu-item-4197"><a href="http://oishitown.com/tenant/kelly-nail">HALULU Nail</a></li>
+                                <li id="menu-item-4198" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4198"><a href="http://oishitown.com/tenant/cafe-latte">Cafe Latte</a></li>
+                                <li id="menu-item-4480" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4480"><a href="http://oishitown.com/tenant/sai-gon-bar">Saigon Bar</a></li>
+                                <li id="menu-item-4200" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4200"><a href="http://oishitown.com/tenant/kins-shop">Kin&#8217;s Shop</a></li>
+                                <li id="menu-item-4201" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4201"><a href="http://oishitown.com/tenant/nha-hang-mekong-kichen">Nhà hàng Mekong Kichen</a></li>
+                                <li id="menu-item-4202" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4202"><a href="http://oishitown.com/tenant/nha-hang-o-thuong">Nhà hàng Ơ Thương</a></li>
+                                <li id="menu-item-4203" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4203"><a href="http://oishitown.com/tenant/tonkotsu-ittou">Tonkotsu Ittou</a></li>
+                                <li id="menu-item-4204" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4204"><a href="http://oishitown.com/tenant/nha-hang-sushi-roll">Temaki Roll</a></li>
+                                <li id="menu-item-4206" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4206"><a href="http://oishitown.com/tenant/nha-hang-teppanyaki">The Meatball&#8217;s House</a></li>
+                                <li id="menu-item-4207" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4207"><a href="http://oishitown.com/tenant/sake-bar">Hem Bar</a></li>
+                                <li id="menu-item-4208" class="menu-item menu-item-type-post_type menu-item-object-dt_portfolio menu-item-4208"><a href="http://oishitown.com/tenant/maru-chan">Seafood &#038; BBQ Maru-Chan</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </aside><!-- #sidebar -->
+
+
+
+
+
+        </div><!-- .wf-container -->
+    </div><!-- .wf-wrap -->
+</div><!-- #main -->
+<a href="tel:0938479642" id="callnowbutton">&nbsp;</a><ul id="main-slideshow-content" class="rsHomePorthole"><li><img class="preload-me" src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-3.jpg" srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-3.jpg 1200w" sizes="1200px" data-rsTmb="http://oishitown.com/wp-content/uploads/2018/06/Kelly-3.jpg" alt="" width="1200" height="810" /></li><li><img class="preload-me" src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-2-1-1.jpg" srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-2-1-1.jpg 1200w" sizes="1200px" data-rsTmb="http://oishitown.com/wp-content/uploads/2018/06/Kelly-2-1-1.jpg" alt="" width="1200" height="800" /></li><li><img class="preload-me" src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-6-1.jpg" srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-6-1.jpg 546w" sizes="546px" data-rsTmb="http://oishitown.com/wp-content/uploads/2018/06/Kelly-6-1.jpg" alt="" width="546" height="406" /></li><li><img class="preload-me" src="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7-1.jpg" srcset="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7-1.jpg 800w" sizes="800px" data-rsTmb="http://oishitown.com/wp-content/uploads/2018/06/Kelly-7-1.jpg" alt="" width="800" height="579" /></li></ul><link rel='stylesheet' id='vc_google_fonts_maven_proregular500700900-css' href='//fonts.googleapis.com/css?family=Maven+Pro%3Aregular%2C500%2C700%2C900&#038;ver=4.9.5' type='text/css' media='all' />
